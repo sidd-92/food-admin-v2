@@ -1,9 +1,7 @@
-import { Button } from "primereact/button";
 import { useEffect, useState } from "react";
 import { getRecipies } from "./services/recipies";
 import { DataTable } from "primereact/datatable";
 import { Column } from "primereact/column";
-import { Tag } from "primereact/tag";
 
 const Recipies = () => {
 	const [recipies, setRecipies] = useState<any[]>([]);

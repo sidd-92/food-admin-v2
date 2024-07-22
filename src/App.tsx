@@ -1,6 +1,5 @@
 // src/App.tsx
 import { Button } from "primereact/button";
-import { Menubar } from "primereact/menubar";
 import React from "react";
 
 const App: React.FC = () => {
